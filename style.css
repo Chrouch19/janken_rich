@@ -1,0 +1,32 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#dialogue {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#result {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#choices {
+  display: flex;
+  justify-content: center;
+}
+
+.choice {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.choice:hover {
+  background-color: #ccc;
+}
